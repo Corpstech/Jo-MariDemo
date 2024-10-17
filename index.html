@@ -12,8 +12,8 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    <section class="p-3 mt-5 mt-sm-2 text-center bg-info ">
+  <body class="my-2">
+    <section class="p-3 text-center bg-info ">
       <div >
         <div class="container">
           <h1 class="title">Stock Submission</h1>
@@ -47,14 +47,14 @@
           />
         </div>
       </div>
-      <div class="field">
+      <div>
         <label class="label">Besigheid</label>
-        <div class="control">
+        <div>
           <div>
             <select
               id="optionList"
               script="addData"
-              class="select"
+              class="form-select"
               type="text"
               name="Besigheid"
             >
@@ -63,14 +63,14 @@
           </div>
         </div>
       </div>
-      <div class="field">
+      <div>
         <label class="label">Afdeeling</label>
-        <div class="control">
+        <div>
           <div>
             <select
               id="optionList2"
               script="addData2"
-              class="select"
+              class="form-select"
               type="text"
               name="Afdeeling"
             >
@@ -79,8 +79,8 @@
           </div>
         </div>
       </div>
-
-      <div class="field is-grouped">
+      <br>
+      <div class="cont">
         <div class="control">
           <button
             class="button is-primary"
@@ -88,21 +88,14 @@
             id="submit-button"
             data-bs-toggle="modal"
             id="btntarget"
+            class="my-sm-5"
+            style="width: 100%;"
           >
             Submit
           </button>
         </div>
 
-        <!-- Button trigger modal -->
-        <button
-          type="button"
-          class="btn btn-primary"
-          data-bs-toggle="modal"
-          data-bs-target="#exampleModal"
-          id="btntarget"
-        >
-          Launch demo modal
-        </button>
+
 
         <!-- Modal -->
         <div
